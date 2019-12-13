@@ -1,0 +1,14 @@
+{
+  "name": "yogurt-js",
+  "version": "0.1.0",
+  "description": "Provides yogurt api for javascript and typescript applications",
+  "main": "lib/index.js",
+  "author": "Johannes Jeising <Johannes.Jeising@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.3.3"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
