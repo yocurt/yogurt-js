@@ -12,6 +12,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '10.x'
-      - run: npm install neon-cli
+      - run: npm install --global neon-cli
       - run: neon version
       - run: neon build --release
