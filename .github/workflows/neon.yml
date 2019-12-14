@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-        name: Checkout
+        name: Checkout sources
       - uses: actions/setup-node@v1
         name: Setup node
         with:
@@ -16,8 +16,8 @@ jobs:
       - run: npm install --global neon-cli
         name: Install neon
       - run: neon version
-        name: Neon version
+        name: Print neon version
       - run: neon build --release
-        name: Build
+        name: Execute build
       - run: node lib/index.js
-        name: Smoke test
+        name: Run simple smoke test
