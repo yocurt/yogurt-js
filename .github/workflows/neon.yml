@@ -8,11 +8,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+        name: Checkout
       - uses: actions/setup-node@v1
+        name: Setup node
         with:
           node-version: "10.x"
       - run: npm install --global neon-cli
+        name: Install neon
       - run: neon version
+        name: Neon version
       - run: neon build --release
         name: Build
       - run: node lib/index.js
