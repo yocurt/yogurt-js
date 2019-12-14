@@ -4,14 +4,16 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: '10.x'
+          node-version: "10.x"
       - run: npm install --global neon-cli
       - run: neon version
       - run: neon build --release
+        name: Build
+      - run: node lib/index.js
+        name: Smoke test
