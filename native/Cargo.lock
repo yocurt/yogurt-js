@@ -132,12 +132,12 @@ version = "0.1.0"
 dependencies = [
  "neon 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "neon-build 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "yogurt-yaml 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yogurt-yaml 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "yogurt-yaml"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "argparse 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -163,4 +163,4 @@ dependencies = [
 "checksum semver-parser 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3"
 "checksum thread_local 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)" = "c6b53e329000edc2b34dbe8545fd20e55a333362d0a321909685a19bd28c3f1b"
 "checksum yaml-rust 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)" = "65923dd1784f44da1d2c3dbbc5e822045628c590ba72123e1c73d3c230c4434d"
-"checksum yogurt-yaml 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "97ce1d00db7f6afa480e630715ddd5ae62e0d695a0dbc0e24d5812e6ffe7bec1"
+"checksum yogurt-yaml 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "104992af35d49504306b1d3f5197881035120c0644c6556dd9ed2aaf6f3f9b48"

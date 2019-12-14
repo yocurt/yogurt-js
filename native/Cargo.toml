@@ -15,4 +15,4 @@ neon-build = "0.3.3"
 
 [dependencies]
 neon = "0.3.3"
-yogurt-yaml = "0.1.*"
+yogurt-yaml = "^0.1.1"
